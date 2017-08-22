@@ -1,0 +1,9 @@
+/build
+/gradle
+*.properties
+gradlew
+*.bat
+*.jks
+settings.gradle
+*.iml
+.DS_Store

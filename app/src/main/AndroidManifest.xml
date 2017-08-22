@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.emerson.example.thenewboston2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-feature
+        android:name="android.hardware.Camera"
+        android:required="true"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".JavaInterface">
+        </activity>
+        <activity
+            android:name=".GridLayout">
+        </activity>
+        <activity
+            android:name=".Gestures">
+        </activity>
+        <activity
+            android:name=".Fragments">
+        </activity>
+        <activity
+            android:name=".OverflowMenu">
+        </activity>
+        <activity
+            android:name=".Transitions">
+        </activity>
+        <activity
+            android:name=".Bacon">
+        </activity>
+        <activity
+            android:name=".Apples">
+        </activity>
+        <activity
+            android:name=".SendBroadcast">
+        </activity>
+        <activity
+            android:name=".Threads">
+        </activity>
+        <activity
+            android:name=".BoundServices">
+        </activity>
+        <activity
+            android:name=".ListViewExample">
+        </activity>
+        <activity
+            android:name=".SQLite">
+        </activity>
+        <activity
+            android:name=".VideoPlayer">
+        </activity>
+        <activity
+            android:name=".ImageCapture">
+        </activity>
+        <activity
+            android:name=".ImageEffects">
+        </activity>
+        <activity
+            android:name=".Notifications">
+        </activity>
+        <activity
+            android:name=".SharedPrefs">
+        </activity>
+
+        <service android:name=".BuckysIntentService"/>
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+        <service
+            android:name=".MyService2"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+    </application>
+
+</manifest>
